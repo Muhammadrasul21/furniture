@@ -44,18 +44,19 @@ const Navbar = () => {
             <h2 className="text-2xl leading-9">NORLIGHT</h2>
           </div>
 
-          <div className="hidden sm:flex items-center gap-6">
+          <div className="hidden lg:flex items-center gap-6 ">
             <div className="w-[153px] h-[50px] flex items-center justify-center rounded-3xl gap-1 text-white bg-[#454545] px-[14px] py-[14px] hover:bg-black transition duration-300">
               <FiMenu className="text-xl" />
               <span>Каталог</span>
             </div>
             <div className="w-[625px] h-[50px] flex justify-between border border-black rounded-3xl p-4">
-              <input
-                type="text"
-                placeholder="Поиск по товарам"
-                className="h-[20px] border-none outline-none w-[500px]"
-                aria-label="Search products"
-              />
+            <input
+  type="text"
+  placeholder="Поиск по товарам"
+  className="h-[20px] border-none outline-none w-[500px]"
+  aria-label="Search products"
+/>
+
               <IoIosSearch className="w-5 h-5" />
             </div>
           </div>
@@ -66,7 +67,7 @@ const Navbar = () => {
               <p className="text-xs">Избранное</p>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <FaSignal className="w-6 h-6 hidden md:block" />
+              <FaSignal className="w-6 h-6 hidden md:block xl:hiden" />
               <p className="text-xs hidden md:block">Сравнение</p>
             </div>
             <div className="flex flex-col items-center gap-1">

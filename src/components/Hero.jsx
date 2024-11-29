@@ -4,18 +4,18 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import lamp from "../assets/lamp.svg";
-
+ 
 const Hero = () => {
   return (
     <div className="container max-w-[1332px] mx-auto px-4 py-6 mt-[50px]">
-      <div className="flex justify-between items-center bg-[#F2F2F2] rounded-[50px] p-6">
-        <div className="flex flex-col gap-4">
-          <h4 className="text-xl font-semibold">
+      <div className="flex flex-col-reverse justify-center items-center text-center md:flex-row  bg-[#F2F2F2] rounded-[50px] p-6 gap-8 ">
+        <div className="flex flex-col gap-4 items-center mt-4">
+          <h4 className="font-bold font w-[599px] text-3xl sm:text-6xl">
             Скидка 15% на все подвесные светильники
           </h4>
-          <button className="w-[200px] py-2 px-4 bg-[#454545] text-white rounded-3xl hover:bg-black transition duration-300">
-            до 5 февраля
-          </button>
+          <button className="w-[495px] h-[86px] text-6xl flex justify-center items-center text-white rounded-[100px] bg-black transition duration-300 hover:bg-[#454545]">
+          до 5 февраля
+          </button>          
         </div>
         <div className="flex justify-center items-center w-[400px]">
           <Swiper
