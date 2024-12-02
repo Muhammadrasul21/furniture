@@ -112,6 +112,8 @@ const Navbar = () => {
                 <FiMenu className="text-xl" />
                 <span>Каталог</span>
               </div>
+              <p>8 (800) 890-46-56</p>
+              <span className="opacity-10">Заказать звонок</span>
             </div>
           </div>
         )}
