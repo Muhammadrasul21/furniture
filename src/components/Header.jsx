@@ -82,7 +82,7 @@ const Navbar = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="sm:hidden bg-white p-4 absolute top-0 right-0 w-full">
+          <div className="sm:hidden bg-white p-4 absolute top-0 right-0 w-full z-10">
             <div className="flex justify-between border-b-2 border-black-opacity-50">
               <div className="flex justify-between mb-[20px]">
                 <RxCross2
@@ -116,7 +116,7 @@ const Navbar = () => {
           </div>
         )}
 
-        <div className="sm:hidden flex flex-col items-center gap-4 mt-4">
+        <div className="sm:hidden flex flex-col items-center gap-4 mt-4 ">
           <div className="w-full flex justify-center gap-4">
             <div className="w-[80%] h-[50px] flex justify-between border border-black rounded-3xl p-4 mb-4">
               <input
