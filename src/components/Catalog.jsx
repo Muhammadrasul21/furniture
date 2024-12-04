@@ -5,7 +5,7 @@ import { catalogCards } from "../stock";
 const Catalog = () => {
   return (
     <div>
-      <div className="container max-w-[1332px] mx-auto px-4 mt-[50px] py-[97px]">
+      <div className="container max-w-[1332px] mx-auto px-4 mt-[20px] sm:mt-[50px] py-[97px]">
         <div className="flex justify-between mb-8">
           <h4 className="font-bold text-[40px]">Каталог</h4>
           <button className=" hidden sm:flex items-center justify-center mb-[40px] gap-3 p-3 px-12  border border-black rounded-[100px] hover:bg-black hover:text-white transition duration-300 ease-in-out">
