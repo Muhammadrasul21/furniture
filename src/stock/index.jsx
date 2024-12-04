@@ -4,6 +4,10 @@ import bra from "../assets/bra.png";
 import torsher from "../assets/torsher.png";
 import lampa from "../assets/lampa.png";
 import spot from "../assets/spot.png";
+import frame from "../assets/frame.png";
+import framebrand from "../assets/framebrand.png";
+import delivery from "../assets/delivery.png";
+import app from "../assets/app.png";
 
 export const socialMedia = ["VK", "VK", "VK"];
 
@@ -70,4 +74,30 @@ export const catalogCards = [
     price: "От 540₽",
     image: spot,
   },
-]
+];
+export const aboutItems = [
+  {
+    id: 1,
+    image: framebrand,
+    title: "Только проверенные бренды",
+    info: "Бренды, проверенные временем и качеством",
+  },
+  {
+    id: 2,
+    image: frame,
+    title: "Самые низкие цены",
+    info: "Ниже не будет нигде",
+  },
+  {
+    id: 3,
+    image: delivery,
+    title: "Быстрая доствка",
+    info: "Доставляем по всей РФза 1-10 дней",
+  },
+  {
+    id: 4,
+    image: app,
+    title: "Большой ассортимент",
+    info: "Более 1000 товаров",
+  },
+];

@@ -1,0 +1,18 @@
+.swiper-pagination-bullet {
+  background-color: black;
+}
+.swiper-pagination {
+  display: flex !important;
+  justify-content: end !important;
+  position: absolute;
+}
+
+.swiper {
+  position: relative;
+}
+
+@media (max-width: 780px) {
+  .swiper-pagination {
+    justify-content: center !important;
+  }
+}
