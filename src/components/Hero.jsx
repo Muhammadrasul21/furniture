@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import lamp from "../assets/lamp.svg";
 import "./Hero.css";
 
+
 const Hero = () => {
   return (
     <div className="container max-w-[1332px] mx-auto px-4 py-6 sm:mt-[50px]">
@@ -30,13 +31,13 @@ const Hero = () => {
             className="mySwiper"
           >
             <SwiperSlide className="mb-12">
-              <img src={lamp} alt="" />
+              <img src={lamp} alt="#" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={lamp} alt="" />
+              <img src={lamp} alt="#" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={lamp} alt="" />
+              <img src={lamp} alt="#" />
             </SwiperSlide>
           </Swiper>
         </div>

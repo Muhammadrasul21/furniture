@@ -16,3 +16,16 @@
     justify-content: center !important;
   }
 }
+.brendSwiper{
+  display: none;
+}
+@media(max-width:640px){
+  .brendSwiper{
+display: flex;
+  }
+  .swiper-slide{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
