@@ -8,6 +8,7 @@ import frame from "../assets/frame.png";
 import framebrand from "../assets/framebrand.png";
 import delivery from "../assets/delivery.png";
 import app from "../assets/app.png";
+import svetilni from "../assets/svetilni.png";
 
 export const socialMedia = ["VK", "VK", "VK"];
 
@@ -99,5 +100,63 @@ export const aboutItems = [
     image: app,
     title: "Большой ассортимент",
     info: "Более 1000 товаров",
+  },
+];
+export const productCards = [
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
+  },
+  {
+    id: 1,
+    image: svetilni,
+    title: "Встраиваемый светильник Novotech",
+    lastprice: "7 000 P",
+    price: "6 399 P",
   },
 ];

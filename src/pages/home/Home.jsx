@@ -4,6 +4,7 @@ import Hero from "../../components/Hero";
 import Catalog from "../../components/Catalog";
 import About from "../../components/About";
 import Product from "../../components/Product";
+import Brend from "../../components/Brend";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Catalog />
         <About />
         <Product/>
+        <Brend/>
       </Layout>
     </div>
   );
