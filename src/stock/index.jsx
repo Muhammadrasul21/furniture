@@ -9,6 +9,9 @@ import framebrand from "../assets/framebrand.png";
 import delivery from "../assets/delivery.png";
 import app from "../assets/app.png";
 import svetilni from "../assets/svetilni.png";
+import arte from "../assets/arte.png"
+import divinare from "../assets/divinare.png"
+import odeon from "../assets/odeon.png"
 
 export const socialMedia = ["VK", "VK", "VK"];
 
@@ -160,3 +163,6 @@ export const productCards = [
     price: "6 399 P",
   },
 ];
+export const brendImages = [
+arte, divinare, odeon, arte
+]

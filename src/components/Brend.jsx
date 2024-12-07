@@ -1,8 +1,7 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
-
-
+import { brendImages } from '../stock';
 
 const Brend = () => {
   return (
@@ -18,6 +17,13 @@ const Brend = () => {
         </button>
       
         </div>
+      </div>
+      <div className='grid place-items-center gap-5 mt-[72px] mb-[100px] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+      {brendImages.map((image, index)=>(
+        <div key={index} className='hover:shadow-2xl transition duration-300 ease-in-out'>
+          <img src={image} alt="#" />
+        </div>
+      ))}
       </div>
     </div>
   )
