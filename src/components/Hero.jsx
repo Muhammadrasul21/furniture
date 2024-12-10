@@ -10,7 +10,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="container max-w-[1332px] mx-auto px-4 py-6 sm:mt-[50px]">
-      <div className="flex flex-col-reverse justify-center items-center text-center md:flex-row  bg-[#F2F2F2] rounded-[50px] pb-4 gap-8  relative">
+      <div className="flex flex-col-reverse justify-center items-center text-center lg:flex-row  bg-[#F2F2F2] rounded-[50px] pb-4 gap-8  relative">
         <div className="flex flex-col items-start gap-4  mt-4">
           <h4 className="font-bold font sm:w-[599px] text-4xl mb-5  sm:text-6xl w-[250px] leading-tight text-start">
             Скидка 15% на все подвесные светильники

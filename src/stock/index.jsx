@@ -12,6 +12,9 @@ import svetilni from "../assets/svetilni.png";
 import arte from "../assets/arte.png"
 import divinare from "../assets/divinare.png"
 import odeon from "../assets/odeon.png"
+import home from "../assets/home.png"
+import house from "../assets/house.png"
+import nighthome from "../assets/nighthome.png"
 
 export const socialMedia = ["VK", "VK", "VK"];
 
@@ -114,49 +117,49 @@ export const productCards = [
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 2,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 3,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 4,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 5,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 6,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 7,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
     price: "6 399 P",
   },
   {
-    id: 1,
+    id: 8,
     image: svetilni,
     title: "Встраиваемый светильник Novotech",
     lastprice: "7 000 P",
@@ -165,4 +168,27 @@ export const productCards = [
 ];
 export const brendImages = [
 arte, divinare, odeon, arte
+]
+export const blogImages = [
+  home, house, nighthome
+]
+export const blogItems = [
+  {
+    id: 1,
+    image: home,
+    title: " Как правильно освещать дом снаружи?",
+    date: "01.01.2024"
+  },
+  {
+    id: 2,
+    image: house,
+    title: " Как правильно освещать дом снаружи?",
+    date: "01.01.2024"
+  },
+  {
+    id: 3,
+    image: nighthome,
+    title: " Как правильно освещать дом снаружи?",
+    date: "01.01.2024"
+  },
 ]

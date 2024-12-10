@@ -5,9 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import arte from "../assets/arte.png"
-import divinare from "../assets/divinare.png"
-import odeon from "../assets/odeon.png"
 
 const Brend = () => {
   return (
@@ -40,30 +37,12 @@ const Brend = () => {
         pagination={{ clickable: true }}
         modules={[Pagination, Autoplay]}
       >
-        <SwiperSlide>
-          <img src={arte} alt="#" />
+        {brendImages.map((image, index)=>(
+          
+        <SwiperSlide key={index}>
+          <img src={image} alt="#" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={divinare}  alt="#" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={odeon} alt="#" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={arte} alt="#" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={divinare}  alt="#" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={odeon} alt="#" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={divinare}  alt="#" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={odeon} alt="#" />
-        </SwiperSlide>  
+        ))}
       </Swiper>
     </div>
   );

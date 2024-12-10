@@ -22,6 +22,7 @@
 @media(max-width:640px){
   .brendSwiper{
 display: flex;
+margin-bottom: 70px;
   }
   .swiper-slide{
     display: flex;

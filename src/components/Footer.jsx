@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#F2F2F2] p-20">
       <div className="container max-w-[1332px] mx-auto px-4">
-        <div className="flex flex-wrap justify-between sm:flex gap-10">
+        <div className="flex flex-wrap sm:justify-between sm:flex gap-10">
           <div className="flex flex-col gap-9">
             <div className="flex gap-[15px]">
               <img src={logo} alt="" />
